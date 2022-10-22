@@ -1,0 +1,108 @@
+@media (max-width: 992px) {
+  h1 {
+    font-size: 1.3rem !important;
+  }
+  p,
+  li {
+    font-size: 0.8rem !important;
+  }
+
+  /* navbar */
+  .navbar a {
+    padding: 0 2rem !important;
+  }
+  .anh-ca-nhan {
+    display: none;
+  }
+
+  /* about */
+  #about .container {
+    width: 100%;
+    padding: 2rem 1rem 1rem 1rem;
+    gap: 3rem;
+  }
+  #about .personal-icon {
+    font-size: 0.8rem;
+  }
+
+  /* job-info */
+
+  #job-info .container {
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .language {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .active {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  #job-info .card-body {
+    padding: 1rem 1.5rem;
+  }
+  #job-info .time::before {
+    left: 0.3rem;
+  }
+
+  .eper-full-stack,
+  .eper-web,
+  .edu-funix,
+  .edu-fpt,
+  .acti-fpt,
+  .acti-club {
+    padding-left: 0.5rem;
+  }
+
+  /* hobby */
+
+  .hobby .card-body {
+    flex-wrap: wrap;
+  }
+  /* lang-skill */
+  .lavel .mark-fill {
+    height: 0.2rem;
+    width: 2.5rem;
+  }
+  .lavel .mark {
+    height: 0.2rem;
+    width: 2.5rem;
+  }
+
+  /* chung chi - giai thuong */
+  #certificate .section-body {
+    gap: 1.5rem;
+  }
+  #certificate .section-body p {
+    margin: 0;
+  }
+  #certificate img {
+    margin-bottom: 1.5rem;
+  }
+  #certificate h3 {
+    font-size: 1rem;
+  }
+
+  /* Du an */
+  #project p,
+  #project td {
+    font-size: 0.8rem;
+  }
+  .project-table tr,
+  .project-table td {
+    padding: 0.5rem;
+  }
+
+  /* footer */
+  #footer .container {
+    padding: 0.5rem !important;
+  }
+  #footer i {
+    font-size: 1.5rem;
+  }
+  #footer a {
+    font-size: 1rem;
+  }
+}

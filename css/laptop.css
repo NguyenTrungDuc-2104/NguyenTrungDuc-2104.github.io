@@ -1,0 +1,247 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#body {
+  font-family: "Inter", sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #495057;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+h1 {
+  font-size: 1.8rem !important;
+}
+.bg-grey {
+  background: #f7f7f7;
+}
+/* Banner */
+#banner {
+  position: relative;
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.6),
+      rgba(34, 34, 34, 0.6)
+    ),
+    url(../images/banner.jpg);
+  background-size: cover;
+  height: 60vh;
+}
+.banner-header span {
+  font-size: 0.8rem;
+}
+.banner-header {
+  font-size: 2rem !important;
+  color: #f1f3f5;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar */
+.navbar {
+  height: 4rem;
+}
+
+#nav-bar .container {
+  height: 100%;
+  font-size: 1.2rem;
+}
+
+#nav-bar a {
+  height: 100%;
+  padding: 0 3rem;
+  color: #495057;
+  text-decoration: none;
+  border-left: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
+}
+
+#nav-bar a p {
+  padding-top: 1.2rem;
+}
+
+.anh-ca-nhan {
+  width: 12rem;
+  height: auto;
+  border-radius: 50%;
+  border: 0.3rem solid white;
+  box-shadow: 0 0 0.5rem rgba(34, 34, 34, 0.25);
+}
+
+/* about */
+#about .container {
+  padding: 6rem 3rem 3rem 3rem;
+  gap: 6rem;
+}
+
+#about .personal-icon {
+  font-size: 1.5rem;
+}
+/* job-info */
+#job-info .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 2rem;
+}
+
+#job-info .time::before {
+  content: "";
+  position: absolute;
+  height: 0.8rem;
+  width: 0.8rem;
+  border: 1px solid #1c7ed6;
+  border-radius: 50%;
+  background-color: #1c7ed6;
+
+  left: 1rem;
+  transform: translate(0%, 65%);
+}
+
+/* job-info hobby */
+.hobby i {
+  font-size: 1.5rem;
+}
+
+.flex-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.hobby .border-icon {
+  height: 3rem;
+  width: 3rem;
+  background-color: #fff;
+  border: 2px solid #1c7ed6;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* job-info lang-skill */
+.lavel .mark-fill {
+  display: inline-block;
+  background: #4dabf7;
+  height: 0.2rem;
+  width: 3rem;
+  margin-right: 0.5rem;
+  margin-top: 1rem;
+}
+.lavel .mark {
+  padding: 0;
+  display: inline-block;
+  background: #ced4da;
+  height: 0.2rem;
+  width: 3rem;
+  margin-right: 0.5rem;
+  margin-top: 1rem;
+}
+
+/* vi tri cac card ib-info */
+
+.skill {
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.language {
+  grid-row: 1;
+  grid-column: 3;
+}
+
+.active {
+  grid-row: 2;
+  grid-column: 1;
+}
+
+/* Chung chi - giai thuong */
+#certificate {
+  background-color: #f7f7f7;
+  padding: 3rem 6rem;
+}
+#certificate .container h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+#certificate p {
+  margin: 0;
+}
+
+#certificate .section-body img {
+  height: 7rem;
+}
+#certificate .section-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+#certificate .section-body h3 {
+  font-weight: 500;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.certificate-js {
+  padding-left: 1rem;
+  border-left: 1px solid #ffc078;
+}
+.certificate-database {
+  grid-column: 1/-1;
+  padding-top: 3rem;
+  border-top: 1px solid #ffc078;
+}
+
+/* Du an */
+#project .section-body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.info-card {
+  border-top: 1px solid #dee2e6;
+}
+
+.project-table tr {
+  vertical-align: text-top;
+}
+.project-table tr,
+.project-table td {
+  padding: 1rem;
+}
+
+.project-table tr {
+  border-top: 1px solid #dee2e6;
+}
+
+#project p,
+#project td {
+  font-size: 1rem;
+}
+/* footer */
+#footer i {
+  font-size: 1.8rem;
+}
+#footer a {
+  font-size: 1.3rem;
+}
+
+/* nang cao */
+#project .link {
+  color: #495057;
+  text-decoration: none;
+}

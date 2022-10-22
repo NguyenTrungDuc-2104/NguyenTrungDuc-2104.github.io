@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+  /* layout */
+  .container {
+    display: block;
+  }
+
+  .flex {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  /* scopes */
+  .card-scopes .flex {
+    gap: 1.5rem;
+  }
+  .scopes-body .head {
+    padding-bottom: 0.5rem;
+  }
+  /* team */
+  .member .text {
+    width: 100%;
+    padding-left: 2rem;
+  }
+
+  .member {
+    padding-bottom: 2rem;
+  }
+  .member:last-child {
+    padding-bottom: 0;
+  }
+
+  /* timeline */
+  .timeline-body .flex {
+    align-items: flex-start;
+  }
+}
